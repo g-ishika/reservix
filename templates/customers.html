@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Records</title>
+</head>
+<body>
+    <h2>All Customers</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>ID Type</th>
+            <th>ID Image</th>
+            <th>Check-In Time</th>
+        </tr>
+        {% for c in customers %}
+        <tr>
+            <td>{{ c[1] }}</td>
+            <td>{{ c[2] }}</td>
+            <td>{{ c[3] }}</td>
+            <td><img src="/static/uploads/{{ c[4] }}" height="100"></td>
+            <td>{{ c[5] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br><a href="/">← Back to Form</a>
+</body>
+</html>
