@@ -114,19 +114,6 @@ CREATE TABLE guests (
 | GET | `/guests` | View all guest records | - |
 | GET | `/guests?search={query}` | Search guests | query: name/ID/phone number |
 
-##  Screenshots
-
-### Registration Form
-![Registration Form](https://via.placeholder.com/800x400.png?text=Guest+Registration+Form)
-
-### Guest Records View
-![Guest Records](https://via.placeholder.com/800x400.png?text=Guest+Records)
-
-### Search Functionality
-![Search](https://via.placeholder.com/800x400.png?text=Search+Functionality)
-
-### Mobile Responsive
-![Mobile View](https://via.placeholder.com/800x400.png?text=Mobile+Responsive)
 
 ##  Project Structure
 
